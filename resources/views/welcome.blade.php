@@ -34,7 +34,7 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <a class="navbar-brand" href="#">
-                                    <img src="images\moat-logo.png" width="100" >
+                                    <img src="images\moat-logo.png" width="140" >
                                 </a>
                             </div>
                             <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse" id="bs">
@@ -88,5 +88,6 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>

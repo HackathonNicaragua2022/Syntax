@@ -37,6 +37,7 @@ a, input[type=submit] {
 .row-subtitle {
     position: relative;
     text-align: center;
+    top: -20px;
     font-size: 19px;
     color: #7D8EA8;
     font-weight: 400;

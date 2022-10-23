@@ -14,6 +14,14 @@
 
 <body>
     <div id="header-holder" class="main-header">
+        <div class="bg-animation">
+            <div class="graphic-show">
+                <img class="fix-size" src="images/graphic1.png" alt="">
+                <img class="img img1" src="images/graphic1.png" alt="">
+                <img class="img img2" src="images/graphic2.png" alt="">
+                <img class="img img3" src="images/graphic3.png" alt="">
+            </div>
+        </div>
         <nav id="nav" class="navbar navbar-default navbar-full">
             <div class="container-fluid">
                 <div class="container container-nav">

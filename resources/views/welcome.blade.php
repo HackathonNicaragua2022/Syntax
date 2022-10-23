@@ -205,5 +205,161 @@
             </div>
         </div>
     </div>
+
+    <div id="services" class="container">
+        <div class="landing-planes" id="director-planes">
+            <div class="row-title">Planes</div>
+
+
+        <div class="row-subtitle">Planes Destacados</div>
+    </div>
+    <div id="pricing" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pricing-box pricing-box-simple pricing-box-horizontal pricing-color1">
+
+                        <div class="pricing-content">
+                            <div class="pricing-head">
+                                <div class="pricing-title">Plan Personal</div>
+                            </div>
+
+                            <div class="pricing-features-holder">
+                                <div class="pricing-features">
+                                    <ul>
+                                        <P>Adecuado para Pequeños Grupos de Trabajo</P>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <ul>
+                                    <li>10 Usuarios</li>
+                                    <li>3 Grupos</li>
+                                    <li>5GB de One Drive</li>
+                                    <li>Capacidad 3 Apis</li>
+                                </ul>
+                            </div>
+                            <div class="price-link-holder">
+                                <div class="pricing-price-holder">
+                                    <div>
+                                        <div class="pricing-options">
+                                            <ul class="nav nav-tabs">
+
+                                                <li class="active"><a data-toggle="tab" href="#monthly1">Gratis</a></li>
+
+                                            </ul>
+
+                                            <div class="tab-content">
+                                                <div class="pricing-link">
+                                                    <a class="ybtn" href="#">Suscribirse</a></a>
+                                                </div>
+
+                                            </div>
+                                            <div class="fix-space"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="pricing-box pricing-box-simple pricing-box-horizontal pricing-color2 bestbuy">
+                        <div class="pricing-content">
+                            <div class="pricing-head">
+                                <div class="pricing-title">Plan Profesional</div>
+                            </div>
+                            <div class="pricing-features-holder">
+                                <div class="pricing-features">
+                                    <ul>
+                                        <p>Adecuado para integrar varios grupos de trabajo que requieren aprovechar todas las caracteristicas.</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <ul>
+                                    <li>50 Usuarios</li>
+                                    <li>10 Grupos</li>
+                                    <li>Sesion Online 1080P 60FPS</li>
+                                    <li>1Tb de One Drive</li>
+                                    <li>Sin Limite de Capacidad de Apis</li>
+                                </ul>
+                            </div>
+                            <div class="price-link-holder">
+                                <div class="pricing-price-holder">
+                                    <div>
+                                        <div class="pricing-options">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a data-toggle="tab" href="#monthly1">Mensual</a></li>
+                                                <li><a data-toggle="tab" href="#annualy1">Anual</a></li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div id="monthly1" class="tab-pane fade in active">
+                                                    <div class="pricing-price">$4.99</div>
+                                                    <div class="billing-cycle">Mensual</div>
+                                                </div>
+                                                <div id="annualy1" class="tab-pane fade">
+                                                    <div class="pricing-price">$49.99</div>
+                                                    <div class="billing-cycle">Anual</div>
+                                                </div>
+                                            </div>
+                                            <div class="fix-space"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pricing-link">
+                                    <a class="ybtn" href="#">Suscribirse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="pricing-box pricing-box-simple pricing-box-horizontal pricing-color3">
+                        <div class="pricing-content">
+                            <div class="pricing-head">
+                                <div class="pricing-title">Plan Empresarial</div>
+                            </div>
+                            <div class="pricing-features-holder">
+                                <div class="pricing-features">
+                                    <ul>
+                                        <p>Adecuado para Empresas.</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <ul>
+                                    <li>Usuarios Personalizados</li>
+                                    <li>Sin Limite de Grupos</li>
+                                    <li>Nube Personalizada</li>
+                                    <li>Sesion UHD 60FPS</li>
+                                    <li>Sin Limite de Capacidad de Apis</li>
+                                </ul>
+                            </div>
+                            <div class="price-link-holder">
+                                <div class="pricing-price-holder">
+                                    <div>
+                                        <div class="pricing-options">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a data-toggle="tab" href="#monthly1">Personalizado</a></li>
+                                            </ul>
+
+
+
+                                            <div class="fix-space"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pricing-link">
+                                    <a class="ybtn" href="#">Personalizado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

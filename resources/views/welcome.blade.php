@@ -471,6 +471,53 @@
     </div>
 </div>
 
+<!--Comunidad-->
+<div id="testimonials" class="container-fluid">
+    <div class="bg-color"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row-title">Comunidad</div>
+                <div class="row-subtitle">¿Que Dicen de Nosotros?</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="testimonials-slider">
+                    <div>
+                        <div class="details-holder">
+                            <img class="photo" src="images\comunidad\person1.png" alt="">
+                            <h4>Kevin Aguilar</h4>
+                            <h5>Estudiante de Secuandaria @KevsA</h5>
+                            <p>Si lo puedes imaginar, lo puedes programar.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="details-holder">
+                            <img class="photo" src="images\comunidad\person2.png" alt="">
+                            <h4>Steven Ulloa</h4>
+                            <h5>Estudiante Universitario @StevenU22</h5>
+                            <p>Me gusta, nuestro maestro la implementa de una manera facil y rapida.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="details-holder">
+                            <img class="photo" src="images\comunidad\person3.png" alt="">
+                            <h4>Jonatan Centeno</h4>
+                            <h5>Estudiante Universitario @Jonc14</h5>
+                            <p>Super, tengo todo en mi nube.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 <script src="js/jquery.min.js"></script>

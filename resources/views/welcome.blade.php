@@ -222,7 +222,10 @@
 
                         <div class="pricing-content">
                             <div class="pricing-head">
-                                <div class="pricing-title">Plan Personal</div>
+                                <div class="center-plans"
+                                    img src=" images\planes\plan-personal.png"  alt="">
+                            </div>
+                                <div class="pricing-title">Plan Estudiante</div>
                             </div>
 
                             <div class="pricing-features-holder">
@@ -268,19 +271,19 @@
                     <div class="pricing-box pricing-box-simple pricing-box-horizontal pricing-color2 bestbuy">
                         <div class="pricing-content">
                             <div class="pricing-head">
-                                <div class="pricing-title">Plan Profesional</div>
+                                <div class="pricing-title">Plan De Centros</div>
                             </div>
                             <div class="pricing-features-holder">
                                 <div class="pricing-features">
                                     <ul>
-                                        <p>Adecuado para integrar varios grupos de trabajo que requieren aprovechar todas las caracteristicas.</p>
+                                        <p>Adecuado para trabajar a nivel de centros locales de estudios.</p>
                                     </ul>
                                 </div>
                             </div>
                             <div class="pricing-details">
                                 <ul>
-                                    <li>50 Usuarios</li>
-                                    <li>10 Grupos</li>
+                                    <li>1000 Usuarios</li>
+                                    <li>35 Grupos</li>
                                     <li>Sesion Online 1080P 60FPS</li>
                                     <li>1Tb de One Drive</li>
                                     <li>Sin Limite de Capacidad de Apis</li>
@@ -319,12 +322,12 @@
                     <div class="pricing-box pricing-box-simple pricing-box-horizontal pricing-color3">
                         <div class="pricing-content">
                             <div class="pricing-head">
-                                <div class="pricing-title">Plan Empresarial</div>
+                                <div class="pricing-title">Plan Institucional</div>
                             </div>
                             <div class="pricing-features-holder">
                                 <div class="pricing-features">
                                     <ul>
-                                        <p>Adecuado para Empresas.</p>
+                                        <p>Adecuado para Instituciones educativas con muchos estudiantes, personal Docente y administrativo.</p>
                                     </ul>
                                 </div>
                             </div>

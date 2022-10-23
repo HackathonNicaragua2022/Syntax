@@ -99,6 +99,7 @@
         </div>
     </div>
 
+<!--Servicios-->
     <div id="services" class="container-fluid">
         <div class="container">
             <div class="row">
@@ -201,7 +202,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -210,9 +210,10 @@
         <div class="landing-planes" id="director-planes">
             <div class="row-title">Planes</div>
 
-
         <div class="row-subtitle">Planes Destacados</div>
     </div>
+
+<!--Planes-->
     <div id="pricing" class="container-fluid">
         <div class="container">
             <div class="row">

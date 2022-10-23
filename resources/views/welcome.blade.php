@@ -89,5 +89,15 @@
         </div>
     </div>
 
+    <div id="info" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="info-text">Moat es un proyecto creado por el equipo de desarrollo llamado Syntax, nacio de la necesidad de implementar un sistema multitarea que posea todas las caracteristicas de gestion, administrativas y de comunicacion.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

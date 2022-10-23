@@ -557,6 +557,22 @@
     </div>
 </div>
 
+<!--¿Estas Listo?-->
+<div id="message2" class="container-fluid message-area normal-bg boxed">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="text-other-color1">¿Esta Listo?</div>
+                <div class="text-other-color2">Crea tu Cuenta o Contactanos</div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="buttons-holder">
+                    <a href="registrarse.html" class="ybtn ybtn-accent-color">Crea tu Cuenta</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Contactanos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

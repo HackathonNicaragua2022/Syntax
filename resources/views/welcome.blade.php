@@ -574,6 +574,61 @@
     </div>
 </div>
 
+<!--Footer-->
+<div id="footer" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Company</h4>
+                    <div class="address-holder">
+                        <div class="phone"><i class="fas fa-phone "></i>+505-85124755</div>
+                        <div class="email"><i class="fas fa-envelope "></i>syntax252@gmail.com</div>
+                        <div class="address">
+                            <i class="fas fa-map-marker "></i>
+                            <p>Km 136 Carretera
+                                Panamericana, Esteli.
+                                Esteli, Nicaragua</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <div class="footer-menu-holder">
+                    <h4>Empresa</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Planes</a></li>
+                        <li><a href="#">Complementos</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Enlaces</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#">Auditoria</a></li>
+                        <li><a href="#">Registro</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Otros</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#">Comunidad</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-slider.min.js"></script>

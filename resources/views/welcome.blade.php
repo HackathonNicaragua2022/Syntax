@@ -510,14 +510,52 @@
                             <p>Super, tengo todo en mi nube.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-
+<!--Nuestro Compomiso-->
+<div id="more-features" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">Nuestro Compromiso</div>
+                <div class="row-subtitle">Su Satisfaccion esta Garantizada.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <i class="htfy htfy-trophy"></i>
+                    </div>
+                    <div class="mfeature-title">Calidad del Servicio</div>
+                    <div class="mfeature-details">Estamos con el compromiso de el garantizar la mejor experiencia al usuario.</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <i class="htfy htfy-like"></i>
+                    </div>
+                    <div class="mfeature-title">Mejor Soporte</div>
+                    <div class="mfeature-details">Ya que contamos con un margen casi nulo de mala asistencia tecnica garantizamos informacion precisa y clara para facilitar su actividad en la pagina.</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <i class="htfy htfy-cogwheel"></i>
+                    </div>
+                    <div class="mfeature-title">Garantia de Devolucion</div>
+                    <div class="mfeature-details">Es parte de nuestra politica, es por ello que si el usuario no esta conforme escucharemos cualquier queja y reclamo por parte de nuestros clientes.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script src="js/jquery.min.js"></script>

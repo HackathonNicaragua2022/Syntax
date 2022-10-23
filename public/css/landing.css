@@ -37,7 +37,7 @@ a, input[type=submit] {
 .row-subtitle {
     position: relative;
     text-align: center;
-    top: -20px;
+    top: 5px;
     font-size: 19px;
     color: #7D8EA8;
     font-weight: 400;
@@ -969,4 +969,109 @@ a, input[type=submit] {
 
 #h-info .green-text {
     color: #26dd6c;
+}
+
+/*------------------------------------------------------------------
+	6. Services Styles
+-------------------------------------------------------------------*/
+
+#services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service-box {
+    border-radius: 10px;
+    border: 0;
+    background-color: #fcfcfd;
+    position: relative;
+    overflow: hidden;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    box-shadow: -1px 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.service-box:hover {
+    border: 0;
+    background-color: #fcfcfd;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.service-box .service-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    margin-top: -62px;
+}
+
+.service-box .service-icon img {
+    width: 128px;
+}
+
+.service-box .service-png img {
+    width: 100px;
+    height:100px;
+}
+
+.service-box .service-title {
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2A4968;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.service-box .service-title a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2A4968;
+    background-color: #EBF2F9;
+    border-radius: 20px;
+    padding: 3px 24px 3px 15px;
+    padding: 3px 15px 3px 15px;
+    text-transform: uppercase;
+    position: relative;
+    right: -140px;
+    top:-20px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.service-box .service-title a:hover, .service-box .service-title a:focus {
+    text-decoration: none;
+    background-color: #e5eef7;
+}
+
+.service-box .service-title a:hover:after, .service-box .service-title a:focus:after {
+    right: 20px;
+    -webkit-transform: translateX(2px);
+    -moz-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
+}
+
+.service-box .service-details {
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #7a7896;
+}
+
+.service-box .service-details p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #7a7896;
 }

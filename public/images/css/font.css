@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700");
+
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+
+*, body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a, input[type=submit] {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.row-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F3C52;
+    position: relative;
+    margin-top: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.row-title.grey-color {
+    color: #44494f;
+    margin-bottom: 20px;
+}
+
+.row-title.grey-color:after {
+    background-color: #44494f;
+    bottom: -6px;
+}
+
+.row-subtitle {
+    position: relative;
+    text-align: center;
+    font-size: 19px;
+    color: #7D8EA8;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.row-subtitle:after {
+    position: absolute;
+    content: "";
+    width: 156px;
+    height: 2px;
+    background-color: #D9E3F2;
+    left: 50%;
+    margin-left: -78px;
+    bottom: -15px;
+}
+
+.row-icon {
+    text-align: center;
+}

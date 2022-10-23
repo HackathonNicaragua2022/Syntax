@@ -1,0 +1,281 @@
+/*------------------------------------------------------------------
+	Importando Recursos
+-------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700");
+
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+
+@import url("../fonts/hostify.css");
+
+/*------------------------------------------------------------------
+	1.heder en general
+-------------------------------------------------------------------*/
+*, body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a, input[type=submit] {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+row-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F3C52;
+    position: relative;
+    margin-top: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.row-subtitle {
+    position: relative;
+    text-align: center;
+    font-size: 19px;
+    color: #7D8EA8;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.row-subtitle:after {
+    position: absolute;
+    content: "";
+    width: 156px;
+    height: 2px;
+    background-color: #D9E3F2;
+    left: 50%;
+    margin-left: -78px;
+    bottom: -15px;
+}
+
+.ybtn {
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 9px 26px;
+    margin: 5px 10px;
+    display: inline-block;
+    white-space: nowrap;
+    outline: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.ybtn:hover, .ybtn:focus {
+    text-decoration: none;
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.ybtn-small {
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+    padding: 5px 15px;
+    margin: 2px 4px;
+}
+
+.ybtn-shadow {
+    -webkit-box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
+}
+
+.ybtn-accent-color {
+    color: #ffffff;
+    background-color: #3195ff;
+}
+
+.ybtn-accent-color:hover, .ybtn-accent-color:focus {
+    color: #ffffff;
+    background-color: #1888ff;
+}
+
+.ybtn-header-color {
+    color: #ffffff;
+    background-color: #3195ff;
+}
+
+.ybtn-header-color:hover, .ybtn-header-color:focus {
+    color: #ffffff;
+    background-color: #1888ff;
+}
+
+.ybtn-other-color {
+    color: #ffffff;
+    background-color: #332f5c;
+}
+
+.ybtn-other-color:hover, .ybtn-other-color:focus {
+    color: #ffffff;
+    background-color: #201e3a;
+}
+
+.ybtn-white {
+    color: #66556b;
+    background-color: #ffffff;
+}
+
+.ybtn-white:hover, .ybtn-white:focus {
+    color: #000;
+    background-color: #ffffff;
+}
+
+/*------------------------------------------------------------------
+	2. estilo del header
+-------------------------------------------------------------------*/
+#header-holder {
+    position: relative;
+    z-index: 100;
+    background-size: 100% 100%;
+    background-image: -webkit-linear-gradient(150deg, #93c0ff, #24a7ff);
+    background-image: -o-linear-gradient(150deg, #0a5dd3, #24a7ff);
+    background-image: linear-gradient(150deg, #0a5dd3, #39b0ff);
+    border-radius: 0px 0px 222px 0px;
+    padding-top: 15px;
+}
+
+#header-holder .bg-animation {
+    position: absolute;
+    opacity: 30%;
+    left: 0%;
+    top: -20%;
+    width: 100%;
+    height: 108%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #1886EB;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+    z-index: -1;
+}
+
+#header-holder #nav {
+    border: 0;
+    background-color: transparent;
+}
+
+/*------------------------------------------------------------------
+	3. Nav Bar
+-------------------------------------------------------------------*/
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-default .navbar-nav > li > a.login-button {
+    margin-left: 30px;
+}
+
+.navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:focus, .navbar-default .navbar-nav > .active a:hover {
+    color: #dbc2fe;
+    background-color: transparent;
+}
+
+.support-button-holder {
+    border-radius: 4px;
+}
+
+.support-button-holder a.support-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 9px 30px;
+    background-color: #0d65d8;
+    border-radius: 10px;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: 11px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.08);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.support-button-holder a.support-button:hover, .support-button-holder a.support-button:focus {
+    border-radius: 10px;
+    background-color: #0c5cc5 !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border: 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.navbar-toggle {
+    margin-top: 10px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    border-radius: 10px;
+}
+
+.support-button-holder {
+    perspective: 1000px;
+    position: relative;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.support-button-holder:hover .dropdown-menu, .support-button-holder:focus .dropdown-menu {
+    display: block;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+

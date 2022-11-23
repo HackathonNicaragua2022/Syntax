@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-<title>Moat</title>
+<title>Moat|Landing</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
 <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
 <link rel="stylesheet" type="text/css" href="css/slick.css">
@@ -50,7 +50,7 @@
                                 <li><a href="#">Servicios</a></li>
                                 <li><a href="#">Planes</a></li>
                                 <li><a href="#">Complementos</a></li>
-                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="/nosotros">Nosotros</a></li>
 
                                 <li class="support-button-holder support-dropdown">
                                     <a class="support-button" href="login">Iniciar Sesion</a>
@@ -350,11 +350,8 @@
                                 <div>
                                     <div class="pricing-options">
                                         <ul class="nav nav-tabs">
-                                            <li class="active"><a data-toggle="tab" href="#monthly1">Personalizado</a></li>
+                                            <li class="active"><a data-toggle="tab" href="#">Personalizado</a></li>
                                         </ul>
-
-
-
                                         <div class="fix-space"></div>
                                     </div>
                                 </div>
@@ -486,7 +483,7 @@
                 <div id="testimonials-slider">
                     <div>
                         <div class="details-holder">
-                            <img class="photo" src="images\comunidad\person1.png" alt="">
+                            <img class="photo" src="images\comunidad\person1.png" alt="User-Kevin">
                             <h4>Kevin Aguilar</h4>
                             <h5>Estudiante de Secuandaria @KevsA</h5>
                             <p>Si lo puedes imaginar, lo puedes programar.</p>
@@ -495,7 +492,7 @@
 
                     <div>
                         <div class="details-holder">
-                            <img class="photo" src="images\comunidad\person2.png" alt="">
+                            <img class="photo" src="images\comunidad\person2.png" alt="User-Steven">
                             <h4>Steven Ulloa</h4>
                             <h5>Estudiante Universitario @StevenU22</h5>
                             <p>Me gusta, nuestro maestro la implementa de una manera facil y rapida.</p>
@@ -504,8 +501,8 @@
 
                     <div>
                         <div class="details-holder">
-                            <img class="photo" src="images\comunidad\person3.png" alt="">
-                            <h4>Jonatan Centeno</h4>
+                            <img class="photo" src="images\comunidad\person3.png" alt="User-Jonathan">
+                            <h4>Jonathan Centeno</h4>
                             <h5>Estudiante Universitario @Jonc14</h5>
                             <p>Super, tengo todo en mi nube.</p>
                         </div>
@@ -567,7 +564,7 @@
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="buttons-holder">
-                    <a href="registrarse.html" class="ybtn ybtn-accent-color">Crea tu Cuenta</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Contactanos</a>
+                    <a href="register" class="ybtn ybtn-accent-color">Crea tu Cuenta</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Contactanos</a>
                 </div>
             </div>
         </div>

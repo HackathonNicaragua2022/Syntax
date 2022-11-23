@@ -53,7 +53,7 @@
                                 <li><a href="#">Nosotros</a></li>
 
                                 <li class="support-button-holder support-dropdown">
-                                    <a class="support-button" href="login.html">Iniciar Sesion</a>
+                                    <a class="support-button" href="login">Iniciar Sesion</a>
                                 </li>
 
                                 <li class="support-button-holder support-dropdown">
@@ -86,7 +86,7 @@
                             </div>
 
                             <div class="btn-holder">
-                                <a href="registrarse.html" class="ybtn ybtn-header-color">Registrarse</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Acerca de</a>
+                                <a href="register" class="ybtn ybtn-header-color">Registrarse</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Acerca de</a>
                             </div>
                         </div>
                     </div>

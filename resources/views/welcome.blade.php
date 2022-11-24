@@ -42,8 +42,8 @@
                             <a class="navbar-brand" href="#">
                                 <img src="images\moat-logo.png" width="140" >
                             </a>
-
                         </div>
+
                         <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse" id="bs">
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#">Inicio</a></li>
@@ -61,6 +61,7 @@
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
                 </div>
             </div>

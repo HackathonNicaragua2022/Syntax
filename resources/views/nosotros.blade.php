@@ -251,6 +251,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-xs-6 col-sm-2 col-md-2">
                 <div class="footer-menu-holder">
                     <h4>Empresa</h4>

@@ -1681,9 +1681,9 @@ a, input[type=submit] {
 #features-links-holder .icons-axis {
     position: absolute;
     width: 194px;
-    height: 194px;
+    height: 30px;
     right: 0;
-    top: 50%;
+    top: 55%;
     margin-top: -97px;
     border-radius: 200px;
     text-align: center;

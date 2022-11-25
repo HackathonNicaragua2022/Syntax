@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/landing.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/font.css">
 
 </head>

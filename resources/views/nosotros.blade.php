@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-<title>Moat|Nosotros</title>
+<title>Landing/Nosotros</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
 <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
@@ -251,7 +251,6 @@
                     </div>
                 </div>
             </div>
-            
             <div class="col-xs-6 col-sm-2 col-md-2">
                 <div class="footer-menu-holder">
                     <h4>Empresa</h4>

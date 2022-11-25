@@ -1,0 +1,46 @@
+#services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service-box {
+    border-radius: 30px;
+    border: 50px;
+    background-color: #fdfcfc;
+    position: center;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    box-shadow: -1px 8px 18px rgba(22, 48, 179, 0.486);
+    margin: 50px;
+    font-size: 40px;
+}
+.pricing-price-holder {
+    -webkit-box-flex: 1.3;
+    -moz-box-flex: 1.3;
+    -webkit-flex: 1.3;
+    -ms-flex: 1.3;
+    flex: 1.3;
+    padding: 30px 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    background-color: #994651b0;
+    color: #1f1f24;
+}
+
+.center1 {
+position: relative;
+left: 40vw;
+}
+

@@ -1,0 +1,107 @@
+
+#nombrediv{
+    width: 727px;
+    height: 34px;
+    margin: 30px;
+
+    }
+
+    .margin-label{
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    .margin-label2{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .label-div{
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 7px;
+    margin:0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: right;
+    color: #3F3D59;
+    }
+
+
+    .input-div{
+    width: 653px;
+    height: 34px;
+    top: 0px;
+    border: 2px;
+    background: #F0F4FD;
+    border-radius: 2px;
+    }
+
+    .text-area{
+    width: 653px;
+    height: 166px;
+    left: 10px;
+    top: 353px;
+    border: 6px;
+    background: #F0F4FD;
+    border-radius: 10px;
+    resize: none;
+    }
+
+/*------------------------------------------------------------------
+	1. Button Styles
+-------------------------------------------------------------------*/
+
+    .ybtn {
+        border: 0;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 9px 26px;
+        margin: 175px 310px;
+        display: inline-block;
+        white-space: nowrap;
+        outline: none;
+        -webkit-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .ybtn:hover, .ybtn:focus {
+        text-decoration: none;
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+    .ybtn-small {
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: none;
+        padding: 5px 15px;
+        margin: 2px 4px;
+    }
+
+    .ybtn-shadow {
+        -webkit-box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .ybtn-accent-color {
+        color: #ffffff;
+        background-color: #3195ff;
+    }
+
+
+
+

@@ -4503,6 +4503,8 @@ svg.logo text {
     color: rgba(255, 255, 255, 0.7);
 }
 
+
+
 #team {
     background-color: #ffffff;
     padding-top: 100px;
@@ -4518,7 +4520,7 @@ svg.logo text {
 #team .person-box {
     display: inline-block;
     width: 100%;
-    max-width: 191px;
+    max-width: 250px;
     position: relative;
     padding: 60px 15px 30px;
     margin-top: 50px;
@@ -4565,7 +4567,7 @@ svg.logo text {
 #team .person-box .person-icon .person-img {
     position: absolute;
     width: 100%;
-    top: -37px;
+    top: -88px;
     left: 0;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.inde')
 
 @section('template_title')
     Update Module

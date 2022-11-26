@@ -1,6 +1,6 @@
 <x-guest-layout>
     <div class="div-p">
-    <x-auth-card-show class="div1.">
+    <x-auth-card-show class="div1">
         <head>
 
             <div class="tituloM" h2>Bienvenidos a MoaT</h2>
@@ -72,11 +72,5 @@
         </form>
 
     </x-auth-card>
-    <div class="profe1">
-        <ul>
-            <img src="images\programador.png" width="100" >
-       </ul>
-   </div>
     </div>
-
 </x-guest-layout>

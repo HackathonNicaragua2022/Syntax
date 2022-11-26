@@ -1,10 +1,11 @@
 <x-guest-layout>
     <div class="div-p">
-    <x-auth-card-show class="div1">
+    <x-auth-card-show class="div1.">
         <head>
-            <div class="titulo1" h2>Bienvenidos a MoaT</h2>
+
+            <div class="tituloM" h2>Bienvenidos a MoaT</h2>
         </div>
-        <div class="div3">
+        <div class="div01">
             <img src="images/graphic1.png" alt="" width="450px" height="250px">
         </div>
         </head>
@@ -19,7 +20,7 @@
                 </a>
         </x-slot>
 
-        <!-- Validation Errors -->
+        <!--bValidation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
         <form method="POST" action="{{ route('register') }}">
@@ -67,7 +68,15 @@
                     {{ __('Registrarse') }}
                 </button>
             </div>
+
         </form>
+
     </x-auth-card>
+    <div class="profe1">
+        <ul>
+            <img src="images\programador.png" width="100" >
+       </ul>
+   </div>
     </div>
+
 </x-guest-layout>

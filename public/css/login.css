@@ -36,7 +36,7 @@
     align-items: center;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100vw;
 }
 
 .bttn-register{
@@ -52,19 +52,39 @@
 .div2{
 
     position: relative;
-    margin-left: 20%;
-    top: 60px;
+    margin-left: 10%;
+    margin-right: 20%;
+    right: -8%;
+    top: 10%;
 
 }
 .div3{
     position: relative;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top:10% ;
+}
+.div01 {
+    position: relative;
+    left: 9%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.tituloM{
+
+    left: 3%;
+    top: 28px;
+    position: relative;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 10vw;
 }
 
 .titulo1{
 
-    top: 30px;
+    left: 3%;
+    top: 28px;
     position: relative;
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -72,11 +92,15 @@
 }
 
 .titulo2{
-
-    top: 40px;
+    left: 10%;
+    top: 5%;
     position: relative;
     font-size: 40px;
     color: rgb(255, 255, 255);
-    margin-left: 15%;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+.profe1{
+    left: 50px;
 }
 

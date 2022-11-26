@@ -2,63 +2,75 @@
 <html lang="en" >
 	<head>
 		<meta charset="UTF-8">
-		<title>Grupo Los Tilines</title>
+		<title>Chat</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/chat.css">
+		<link rel="stylesheet" href="/css/barra.css">
+		<link rel="stylesheet" type="text/css" href="vendors/styles/core.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css">
 
 	</head>
+
 	<body class="font-sans antialiased">
+
         @include('layouts.navigation')
         <br>
+
         <div class="justify">
-        <div class="dash-chat">
-			<div class="container-fluid">
-				<div class="row justify-content-center align-content-center">
-					<div class="col-8 barra">
 
-					</div>
-					<div class="col-4 text-right barra">
-						<ul class="navbar-nav mr-auto">
-							<li>
-								<a href="#" class="px-3 text-light perfil dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class=""></i></a>
-
-								<div class="dropdown-menu" aria-labelledby="navbar-dropdown">
-
-									</a>
+		<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="chat-list bg-light-gray">
+								<div class="chat-search">
+									<span class="ti-search"></span>
+									<input type="text" placeholder="Buscar">
 								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+								<div class="notification-list chat-notification-list customscroll">
+									<ul>
+										<li>
+											<a href="http://localhost:8000/chat/with/1"></a>
+												<img src="images\team\team1.png" alt="">
+												<h3 class="clearfix">Eduardo Gamez</h3>
+												<p><i class="fa fa-circle text-light-green"></i> online</p>
+											</a>
+										</li>
+										<li class="active">
+											<a href="http://localhost:8000/chat/with/1">
+												<img src="images\team\team2.png" alt="">
+												<h3 class="clearfix">Steven Ulloa</h3>
+												<p><i class="fa fa-circle text-light-green"></i> online</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="images\team\team3.png" alt="">
+												<h3 class="clearfix">Alejando</h3>
+												<p><i class="fa fa-circle text-light-green"></i> online</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="images\team\team4.png" alt="">
+												<h3 class="clearfix">Jonathan</h3>
+												<p><i class="fa fa-circle text-warning"></i> active 5 min</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="images\team\team5.png" alt="">
+												<h3 class="clearfix">Kevin A.</h3>
+												<p><i class="fa fa-circle text-warning"></i> active 4 min</p>
+											</a>
+										</li>
+										<li>
 
-			<div class="container-fluid">
-				<div class="row">
-					<div class="barra-lateral col-12 col-sm-auto">
-						<nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
-							<a href="#"><i class="fas fa-home"></i><span>messi</span></a>
-							<a href="#"><i class="fas fa-home"></i><span>messi</span></a>
-							<a href="#"><i class="fas fa-home"></i><span>messi</span></a>
-							<a href="#"><i class="fas fa-home"></i><span>messi</span></a>
-						</nav>
-					</div>
-					<main class="main col">
-						<div class="row justify-content-center align-content-center text-center">
-							<div class="columna col-lg-6" >
 
+									</ul>
+								</div>
 							</div>
-
 						</div>
 
-					</main>
-				</div>
-			</div>
-		<div>
-
-		</div>
-        </div>
 		<section class="msger">
 
 			<header class="msger-header">
@@ -75,17 +87,14 @@
 			</header>
 
 			<div class="msger-chat"></div>
-
 			<form class="msger-inputarea">
 				<input type="text" class="msger-input" oninput="sendTypingEvent()" placeholder="Ingrese Su Mensaje...">
 				<button type="submit" class="msger-send-btn">Enviar</button>
 			</form>
-
 		</section>
     </div>
 		<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
 		<script  src="/js/app.js"></script>
 		<script  src="/js/chat.js"></script>
-
 	</body>
 </html>

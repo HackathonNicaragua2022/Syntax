@@ -13,12 +13,12 @@
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
-                                {{ __('Modulos') }}
+                                {{ __('Module') }}
                             </span>
 
                              <div class="float-right">
                                 <a href="{{ route('modules.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Crear Modulo') }}
+                                  {{ __('Create New') }}
                                 </a>
                               </div>
                         </div>
@@ -30,42 +30,29 @@
                     @endif
 
                     <div class="card-body">
-
-
-
-                                       <th>ID</th>
-
-										<th>Modulo</th>
-
-                                        <th></th>
+                                    <div class="service-box">
+                                        <div class="center1">
                                     </tr>
-                                        </div>
                                 </thead>
-
-                                <br>
                                 <tbody>
                                     @foreach ($modules as $module)
-                                    <div class="service-box">
+                                    <tr>
+                                        <td>{{ ++$i }}</td>
 
-                                        <tr >
-                                            <div class="center1"</div>
-                                            <td>{{ ++$i }}</td>
+                                        <td>{{ $module->nombre }}</td>
 
-											<td>{{ $module->nombre }}</td>
 
                                             <td>
                                                 <form action="{{ route('modules.destroy',$module->id) }}" method="POST">
-                                                    <a class="btn btn-sm btn-primary " href="{{ route('modules.show',$module->id) }}"><i class="fa fa-fw fa-eye"></i> Mostrar</a>
-                                                    <a class="btn btn-sm btn-success" href="{{ route('modules.edit',$module->id) }}"><i class="fa fa-fw fa-edit"></i> Editar</a>
+                                                    <a class="btn btn-sm btn-primary " href="{{ route('modules.show',$module->id) }}"><i class="mostrar"></i> Mostrar</a>
+                                                    <a class="btn btn-sm" href="{{ route('modules.edit',$module->id) }}"><i class=""></i> Editar</a>
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> Eliminar</button>
-
+                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> Salir</button>
                                                 </form>
-                                                </div>
                                             </td>
                                         </tr>
-                                    </div>
+
                                     @endforeach
                                 </tbody>
                             </table>

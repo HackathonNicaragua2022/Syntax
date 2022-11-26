@@ -11,8 +11,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
-<body>
-
+<body></body>
 <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
@@ -22,11 +21,13 @@
 <div class="row">
     <div class="col-12 col-lg-3">
 		<div class="card">
+
 			<div class="card-body">
 				<div class="d-grid"> <a href="javascript:;" class="btn btn-primary">+ Agregar Archivo</a>
 				</div>
 				<h5 class="my-3">Mi Unidad</h5>
 				<div class="fm-menu">
+
 					<div class="list-group list-group-flush"> <a href="javascript:;" class="list-group-item py-1"><i class="bx bx-folder me-2"></i><span>Todos los Archivos</span></a>
 						<a href="javascript:;" class="list-group-item py-1"><i class="bx bx-analyse me-2"></i><span>Recientes</span></a>
 
@@ -41,6 +42,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="card">
 			<div class="card-body">
 				<h5 class="mb-0 text-primary font-weight-bold"> 135.9 GB en uso  <span class="float-end text-secondary">1 TB </span></h5>
@@ -83,7 +85,7 @@
 					</div>
 					<div class="flex-grow-1 ms-2">
 						<h6 class="mb-0">Otros Archivos</h6>
-						<p class="mb-0 text-secondary">1,020 files</p>
+						<p class="mb-0 text-secondary">1,020 archivos</p>
 					</div>
 					<h6 class="text-primary mb-0">50 GB</h6>
 				</div>
@@ -97,7 +99,7 @@
 				<div class="fm-search">
 					<div class="mb-0">
 						<div class="input-group input-group-lg">	<span class="input-group-text bg-transparent"><i class="fa fa-search"></i></span>
-							<input type="text" class="form-control" placeholder="Search the files">
+							<input type="text" class="form-control" placeholder="Buscar archivos">
 						</div>
 					</div>
 				</div>
@@ -123,6 +125,7 @@
 						</div>
 					</div>
 				</div>
+
 				<!--end row-->
 				<h5>Clases</h5>
 				<div class="row mt-3">
@@ -138,8 +141,8 @@
 									</div>
 									<div class="user-plus">+</div>
 								</div>
-								<h6 class="mb-0 text-primary">Analytics</h6>
-								<small>15 files</small>
+								<h6 class="mb-0 text-primary">Diseño de sistemas</h6>
+								<small>15 archivos</small>
 							</div>
 						</div>
 					</div>
@@ -154,7 +157,7 @@
 									</div>
 								</div>
 								<h6 class="mb-0 text-primary">Asignaciones</h6>
-								<small>345 files</small>
+								<small>34 Archivos</small>
 							</div>
 						</div>
 					</div>
@@ -170,7 +173,7 @@
 									</div>
 								</div>
 								<h6 class="mb-0 text-primary">Marketing</h6>
-								<small>143 files</small>
+								<small>14 Archivos</small>
 							</div>
 						</div>
 					</div>
@@ -178,19 +181,19 @@
 				<!--end row-->
 				<div class="d-flex align-items-center">
 					<div>
-						<h5 class="mb-0">Recent Files</h5>
+						<h5 class="mb-0">Archivos recientes</h5>
 					</div>
-					<div class="ms-auto"><a href="javascript:;" class="btn btn-sm btn-outline-secondary">View all</a>
+					<div class="ms-auto"><a href="javascript:;" class="btn btn-sm btn-outline-secondary">Ver todos</a>
 					</div>
 				</div>
 				<div class="table-responsive mt-3">
 					<table class="table table-striped table-hover table-sm mb-0">
 						<thead>
 							<tr>
-								<th>Name <i class="bx bx-up-arrow-alt ms-2"></i>
+								<th>Nombre <i class="bx bx-up-arrow-alt ms-2"></i>
 								</th>
-								<th>Members</th>
-								<th>Last Modified</th>
+								<th>Tamaño</th>
+								<th>Ultima vez modificado</th>
 								<th></th>
 							</tr>
 						</thead>
@@ -200,11 +203,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file-pdf me-2 font-24 text-danger"></i>
 										</div>
-										<div class="font-weight-bold text-danger">Competitor Analysis Template</div>
+										<div class="font-weight-bold text-danger">pitch-1.5.pdf</div>
 									</div>
 								</td>
-								<td>Only you</td>
-								<td>Sep 3, 2019</td>
+								<td>1.2 MB</td>
+								<td>Sep 20, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -213,11 +216,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file me-2 font-24 text-primary"></i>
 										</div>
-										<div class="font-weight-bold text-primary">How to Create a Case Study</div>
+										<div class="font-weight-bold text-primary">Manual-de-identidad.docx</div>
 									</div>
 								</td>
-								<td>3 members</td>
-								<td>Jun 12, 2019</td>
+								<td>560 KB</td>
+								<td>nov 12, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -226,11 +229,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file me-2 font-24 text-primary"></i>
 										</div>
-										<div class="font-weight-bold text-primary">Landing Page Structure</div>
+										<div class="font-weight-bold text-primary">Estructura-de-landing-page</div>
 									</div>
 								</td>
-								<td>10 members</td>
-								<td>Jul 17, 2019</td>
+								<td>220 KB</td>
+								<td>Sep 17, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -239,11 +242,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file-pdf me-2 font-24 text-danger"></i>
 										</div>
-										<div class="font-weight-bold text-danger">Meeting Report</div>
+										<div class="font-weight-bold text-danger">Registro de miembros.pdf</div>
 									</div>
 								</td>
-								<td>5 members</td>
-								<td>Aug 28, 2019</td>
+								<td>2.2 MB</td>
+								<td>Aug 28, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -252,11 +255,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file me-2 font-24 text-primary"></i>
 										</div>
-										<div class="font-weight-bold text-primary">Project Documents</div>
+										<div class="font-weight-bold text-primary">Prisma de identidad.docx</div>
 									</div>
 								</td>
-								<td>Only you</td>
-								<td>Aug 17, 2019</td>
+								<td>25 KB</td>
+								<td>Aug 17, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -265,11 +268,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file-doc me-2 font-24 text-success"></i>
 										</div>
-										<div class="font-weight-bold text-success">Review Checklist Template</div>
+										<div class="font-weight-bold text-success">Roles de starup.xlsx</div>
 									</div>
 								</td>
-								<td>7 members</td>
-								<td>Sep 8, 2019</td>
+								<td>678 KB</td>
+								<td>Oct 8, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -278,11 +281,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file me-2 font-24 text-primary"></i>
 										</div>
-										<div class="font-weight-bold text-primary">How to Create a Case Study</div>
+										<div class="font-weight-bold text-primary">Guia de php.docx</div>
 									</div>
 								</td>
-								<td>3 members</td>
-								<td>Jun 12, 2019</td>
+								<td>250 KB</td>
+								<td>Nov 1, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -291,11 +294,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file me-2 font-24 text-primary"></i>
 										</div>
-										<div class="font-weight-bold text-primary">Landing Page Structure</div>
+										<div class="font-weight-bold text-primary">Plan-de-marketing-digital.docx</div>
 									</div>
 								</td>
-								<td>10 members</td>
-								<td>Jul 17, 2019</td>
+								<td>1.8 MB</td>
+								<td>Nov 17, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>
@@ -304,11 +307,11 @@
 									<div class="d-flex align-items-center">
 										<div><i class="bx bxs-file-doc me-2 font-24 text-success"></i>
 										</div>
-										<div class="font-weight-bold text-success">Review Checklist Template</div>
+										<div class="font-weight-bold text-success">Anexos-fisilogia.xlsx</div>
 									</div>
 								</td>
-								<td>7 members</td>
-								<td>Sep 8, 2019</td>
+								<td>1.5 MB</td>
+								<td>Sep 8, 2022</td>
 								<td><i class="fa fa-ellipsis-h font-24"></i>
 								</td>
 							</tr>

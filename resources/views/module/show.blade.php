@@ -1,4 +1,4 @@
-@extends('layouts.inde')
+@extends('layouts.app')
 
 @section('template_title')
     {{ $module->name ?? 'Show Module' }}
@@ -19,10 +19,10 @@
                     </div>
 
                     <div class="card-body">
-
+                        
                         <div class="form-group">
                             <strong>Nombre:</strong>
-                            {{ $module->nombre }}
+                            {{ $module->Nombre }}
                         </div>
 
                     </div>

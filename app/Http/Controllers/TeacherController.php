@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
-class chatuserController extends Controller
+class TeacherController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,8 @@ class chatuserController extends Controller
      */
     public function index()
     {
-        //
+        $clients = User::teachers()->paginate(100);
+        return view('teachers.index', compact('teachers'));
     }
 
     /**
@@ -23,7 +25,7 @@ class chatuserController extends Controller
      */
     public function create()
     {
-        //
+        return view ('students.create'); 
     }
 
     /**
@@ -45,7 +47,7 @@ class chatuserController extends Controller
      */
     public function show($id)
     {
-     
+        //
     }
 
     /**

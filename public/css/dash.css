@@ -4,18 +4,21 @@
 }
 
 .service-box {
-    border-radius: 30px;
-    border: 50px;
+    border-radius: 10px;
+    border: 0;
     background-color: #fdfcfc;
-    position: center;
+    position: relative;
     overflow: hidden;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    box-shadow: -1px 8px 18px rgba(22, 48, 179, 0.486);
-    margin: 50px;
-    font-size: 40px;
+    box-shadow: -1px 8px 18px rgba(179, 22, 22, 0.486);
+    margin: 80px;
+    font-size: 30px;
 }
 .pricing-price-holder {
     -webkit-box-flex: 1.3;
@@ -38,9 +41,14 @@
     background-color: #994651b0;
     color: #1f1f24;
 }
-
 .center1 {
-position: relative;
-left: 40vw;
+
+    position: relative;
+
 }
 
+.mostrar {
+    color: blueviolet;
+    border-bottom: #1f1f24;
+    font-size: 30px;
+}

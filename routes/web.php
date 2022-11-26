@@ -83,3 +83,4 @@ Route::get('chat/{chat}/get_messages', 'App\Http\Controllers\ChatController@get_
 Route::post('message/sent', '\App\Http\Controllers\MessageController@sent')->name('message.sent');
 
 Route::resource('modules', moduleController::class);
+

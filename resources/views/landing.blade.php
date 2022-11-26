@@ -180,7 +180,7 @@
                 <div class="service-box">
                     <div class="service-icon">
                         <ul>
-                            <img src="images\servicios\calendario.png" alt="">
+                            <img src="images\servicios\calendario.png" width="20%">
                         </ul>
                     </div>
                     <div class="service-title"><a href="#">Calendario</a></div>
@@ -196,7 +196,7 @@
                 <div class="service-box">
                     <div class="service-icon ">
                          <ul>
-                            <img src="images\servicios\archivos.png" alt="auto">
+                            <img src="images\servicios\archivos.png" width="40%">
                         </ul>
                     </div>
 
@@ -274,6 +274,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-md-12">
                 <div class="pricing-box pricing-box-simple pricing-box-horizontal pricing-color2 bestbuy">
                     <div class="pricing-content">

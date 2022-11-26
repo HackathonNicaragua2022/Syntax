@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
  * Class Module
  *
  * @property $id
- * @property $nombre
+ * @property $Nombre
  * @property $created_at
  * @property $updated_at
  *
@@ -19,7 +19,7 @@ class Module extends Model
 {
     
     static $rules = [
-		'nombre' => 'required',
+		'Nombre' => 'required',
     ];
 
     protected $perPage = 20;
@@ -29,7 +29,7 @@ class Module extends Model
      *
      * @var array
      */
-    protected $fillable = ['nombre'];
+    protected $fillable = ['Nombre'];
 
 
 

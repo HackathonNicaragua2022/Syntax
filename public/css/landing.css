@@ -991,15 +991,15 @@ a, input[type=submit] {
 }
 
 .service-box {
-    border-radius: 10px;
+    border-radius: 20px;
     border: 0;
     background-color: #fcfcfd;
     position: relative;
     overflow: hidden;
-    padding-top: 38px;
-    padding-bottom: 38px;
-    padding-right: 30px;
-    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    margin-top: 5px;
     margin-bottom: 10px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
